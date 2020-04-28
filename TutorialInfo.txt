@@ -1,0 +1,47 @@
+AWS IAM:
+	user:admin
+	Access key ID: AKIAT4JBGRJCDD4BI364
+	Secret access key: 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
+S3 bucket
+	Bucket name: s3tut-notes-app-uploads
+	Region : US East (N. Virginia) us-east-1
+Cognito
+	Pool Id us-east-1_4m7Jh8vZ2
+	Pool ARN arn:aws:cognito-idp:us-east-1:266894477892:userpool/us-east-1_4m7Jh8vZ2
+	App client id: 55r0vhfdm7vo2r8dab55hcs7fs	
+	Amazon Cognito domain:
+		Domain prefix: https://tdavila-notes-app.auth.us-east-1.amazoncognito.com
+		
+Email Register
+{
+    "UserConfirmed": false,
+    "CodeDeliveryDetails": {
+        "Destination": "a***@e***.com",
+        "DeliveryMedium": "EMAIL",
+        "AttributeName": "email"
+    },
+    "UserSub": "56a2f34b-ea1f-42e3-86c3-701b23fac4b2"
+}
+
+
+
+echo "# Tut-serverless-stack-api" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/ot-tony-davila/Tut-serverless-stack-api.git
+git push -u origin master
+
+
+{
+    "statusCode": 200,
+    "headers": {
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Credentials": true
+    },
+    "body": "{\"userid\":\"USER-SUB-1234\",\"noteid\":\"eb3c0b10-88cf-11ea-ae89-dbac54b13e49\",\"content\":\"hello world\",\"attachment\":\"hello.jpg\",\"createdAt\":1588023717441}"  
+}
+Publishable key
+    pk_test_kVncSDjpaXlp4NPmHJyIQFv400OMOIW7tw
+Secret key
+    sk_test_6C4NYsq4kza9brzVWgKN4I5T00GJxKcE4N
